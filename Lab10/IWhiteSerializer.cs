@@ -1,7 +1,15 @@
-namespace Lab10;
+using Lab9.White;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public interface IWhiteSerializer
+namespace Lab10
 {
-    string Serialize<T>(T obj);
-    T Deserialize<T>(string data);
+    public interface IWhiteSerializer
+    {
+        void Serialize(Lab9.White.White obj);
+        Lab9.White.White Deserialize();
+    }
 }
