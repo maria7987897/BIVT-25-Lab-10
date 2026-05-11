@@ -1,21 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-<PropertyGroup>
-<OutputType>Exec</OutputType>
-<TargetFramework>net8.0</TargetFramework>
-<ImplicitUsings>enable</ImplicitUsings>
-<NullableEnable></Nullable>
-</PropertyGroup>
+  <PropertyGroup>
+    <OutputType>Exec</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <NullableEnable></Nullable>
+  </PropertyGroup>
 
-<ItemGroup>
+  <ItemGroup>
 <<<<<<< main (Current change)
 
-<PackageReference Include="Newtonsoft.Json"Version="13.0.1"/>
-</ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1"/>
+  </ItemGroup>
 
-<ItemGroup>
+  <ItemGroup>
 >>>>>>> main (Incoming change)
-<ProjectReference Include=..\Lab9\Lab9.csproj"/>
-</ItemGroup>
+    <ProjectReference Include="..\Lab9\Lab9.csproj"/>
+  </ItemGroup>
 
 </Project>
